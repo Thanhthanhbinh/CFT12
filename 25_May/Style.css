@@ -20,8 +20,9 @@
 .list {
     list-style-type: none;
 }
-.border {
-    height:1200px;
-    width: 500px;
-
-}
+.flex-container-lft {
+    /* display: inline-block; */
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: flex-start
+  }
