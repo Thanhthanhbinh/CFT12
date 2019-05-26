@@ -11,13 +11,13 @@
     </head>
     <body>
         <!--LOGO VA TÊN TRANG WEB-->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-light bg-light">
                 <a class="navbar-brand" href="#"></a>
-          <img src="download.png" width="50" height="50" class="d-inline-block align-top Round_img" alt="">
-                  
+          <img src="download.png" width="50" height="50" class="d-inline-block align-top Round_img" alt="">      
         </a>
       </nav>
-      
+      <br>
+      <br>
         <!--MỞ ĐẦU TRANG WEB-->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
@@ -50,12 +50,11 @@
                               </div>
                   </div>
                 </div>
-              </div>
-              <!--NGĂN CÁCH TRÔNG CHO THOÁNG-->
+        </div>
               <!--NGĂN CÁCH CHO THOÁNG-->
-              <p style="text-align: center" class="Head_img">LOOK</p>
-            </div>
-      
+          <div class="container">
+              <p style="text-align: center" class="Head_img">!LOOK!</p>
+          </div>
             <!--DISPLAY ẢNH-->
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -93,17 +92,16 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-               
                   <!--DẪN RA LINK QUIZ-->
                   <div class="jumbotron">
                         <h1 class="display-4 Head_img">GIVE IT A TRY!</h1>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nobis accusamus! Ipsam quos maiores omnis corrupti, dignissimos, fugiat dolores et ex reprehenderit alias ab quod dolor distinctio laboriosam rem asperiores?</p>
                         <hr class="my-4">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur blanditiis ipsa amet iusto obcaecati in. Dolore quidem placeat at facere laboriosam magnam molestias mollitia amet nihil ratione, sed recusandae.</p>
-                        <a class="btn btn-outline-dark btn-lg" href="#" role="button">TAKE QUIZ</a>
+                        <a class="btn btn-outline-dark btn-lg" href="#" role="button"><i class="fas fa-file-alt"></i> TAKE QUIZ</a>
                       </div>
                 <!--NGĂN CÁCH CHO THOÁNG-->
-                    <p style="text-align: center" class="Head_img">TOP RESULTS</p>
+                    <p style="text-align: center" class="Head_img">!TOP RESULTS!</p>
                 </div>
                 <!--NHỮNG NƯỚC NỔI TIẾNG ĐƯỢC LỰA CHON-->
                 <div class="card-group">
@@ -130,38 +128,42 @@
                         </div>
                       </div>
                 <!--REVIEW-->
-                <form>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput">NAME</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="What is your name?">
-                  </div>
-                  <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    Good
-                  </label>
+                <button type="button" class="btn btn-outline-dark btn-block" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">REVIEW</button>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                <div class="collapse" id="collapseExample">
+                <p class="Head_img" style="text-align: center">!RATE US!</p>
+                <input class="form-control form-control-lg" type="text" placeholder="Name">
+                <div class="btn-group flex-container" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-outline-success"><i class="fas fa-thumbs-up"></i></button>
+                  <button type="button" class="btn btn-outline-warning">OK</button>
+                  <button type="button" class="btn btn-outline-danger"><i class="fas fa-thumbs-down"></i></button>
                 </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
-                    Bad
-                  </label>
+                <div class="form-group">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" type="text" placeholder="Comment"></textarea>
                 </div>
-                  <div class="form-group">
-                    <label for="formGroupExampleInput2">REVIEW</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="What do you think?">
-                  </div>
-                </form>
+                <div class="flex-container">
+                  <button type="button" class="btn btn-outline-dark">SUMMIT</button>
+                </div>
+            </div>
+            </div>
                 <!--FOOTER-->
-                <div class="jumbotron">
-                        <h1 class="display-4 Head_img" style="font-size:50px">MADE BY</h1>
-                        <ul class="lead" style="font-size: 20px">
-                            <li>Thanh Bình</li>
-                            <li>Bách</li>
-                            <li>Tùng</li>
-                            <br>
-                        <a class="btn btn-outline-dark btn-block" href="#" role="button">Back to top</a>
-                      </div>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4 Head_img" style="font-size: 50px">Made by:</h1>
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Morbi leo risus</li>
+                        </ul>
+                      <p class="display-4" style="font-size: 40px">References:</p>
+                      <ul class="list-group list-group-horizontal-xl">
+                          <a role="button" class="btn btn-outline-info" href="https://getbootstrap.com/"><i class="fab fa-bootstrap fa-3x"></i></a>
+                          <a role="button" class="btn btn-outline-primary" href="https://fontawesome.com/"><i class="fab fa-font-awesome fa-3x"></i></a>
+                        </ul>
+                      <p class="lead">Học sinh khóa </p>
+                    </div>
+                  </div>
         <!--JS-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

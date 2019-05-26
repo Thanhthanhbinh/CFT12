@@ -17,6 +17,11 @@
 .Fade_img {
     opacity: 0.5;
 }
-.Ngan_color {
-    background-color: #f8f9fa;
+.list {
+    list-style-type: none;
+}
+.border {
+    height:1200px;
+    width: 500px;
+
 }
