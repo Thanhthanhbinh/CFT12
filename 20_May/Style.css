@@ -1,0 +1,27 @@
+.headings {
+    font-family: 'Anton', sans-serif;
+    color: darkslategray;
+    margin: autof;
+    text-align: center;
+    font-size: large;
+}
+.para1 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: darkcyan;
+    text-align: center
+}
+.subheadings {
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: auto;
+    color: crimson;
+    text-align: left;
+    font-size: small;
+}
+.title {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: auto;
+    margin-right: auto;
+    color: mediumblue;
+    text-align: left;
+    font-size: x-large;
+}

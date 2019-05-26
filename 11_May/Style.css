@@ -1,0 +1,28 @@
+h1 {
+    color:gold;
+    text-align: center;
+    font-family: 'Akronim', cursive;
+}
+h2 {
+    color:dodgerblue;
+    text-align: center;
+    font-family: 'Gugi', cursive;
+}
+p {
+    font-family: 'Just Another Hand', cursive;
+    color: darkblue;
+    font-size: 150%;
+}
+p.change {
+    color:rgb(105, 128, 0);
+    text-align: right;
+    background-color: rgb(127, 161, 255);
+}
+#special {
+    color:cadetblue;
+    background-color: black;
+}
+body {
+    background-image: url(Capture.PNG);
+    background-repeat: repeat-y;
+}

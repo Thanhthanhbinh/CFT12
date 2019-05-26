@@ -1,0 +1,22 @@
+.Head_img {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 100px;
+}
+.flex-container {
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+  }
+.SHead_img {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.Round_img {
+    border-radius: 50%;
+}
+.Fade_img {
+    opacity: 0.5;
+}
+.Ngan_color {
+    background-color: #f8f9fa;
+}
