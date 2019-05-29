@@ -26,10 +26,49 @@
     align-items: flex-end;
 }
 .container-vertical {
-    width: 55px;
+    width: 60px;
     background-color: whitesmoke;
-    left: 1450px;
+    left: 1400px;
 }
 .flex-container-left {
     align-content: flex-end;
 }
+.navigation {
+    background-color: whitesmoke;
+    height:85px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100% ;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+a:link {
+    color: initial;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: initial;
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: initial;
+    text-decoration: none;
+    
+  }
+  
+  /* selected link */
+  a:active {
+    color: inital;
+    text-decoration: none;
+
+  }
+  
