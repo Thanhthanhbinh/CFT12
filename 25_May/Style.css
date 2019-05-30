@@ -17,7 +17,7 @@
 .Fade_img {
     opacity: 0.5;
 }
-.list {
+ul {
     list-style-type: none;
 }
 .flex-container-vertical {
@@ -40,12 +40,27 @@
     position: fixed;
     top: 0px;
     width: 100% ;
-    flex-direction: row;
     align-content: space-between;
     align-items: center;
     z-index: 10;
 }
+.footer {
+    background-color: whitesmoke;
+    height:200px;
+    display: flex;
+    bottom: 0;
+    width: 100% ;
+    flex-direction: column;
+    align-content: space-between;
+    position: relative;
 
+}
+.name {
+    background-color: white;
+    width: 50%;
+    border-bottom: 2px solid black;
+    
+}
 a:link {
     color: initial;
     text-decoration: none;
