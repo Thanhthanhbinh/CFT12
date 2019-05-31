@@ -6,7 +6,7 @@
     /* display: inline-block; */
     display: flex;
     justify-content: center;
-  }
+}
 .SHead_img {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
@@ -61,29 +61,41 @@ ul {
     border-bottom: 2px solid black;
     
 }
+.img_txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt-con {
+    display: flex;
+    background-color: gainsboro;
+    flex-direction: column;
+}
+.txt-txt {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 a:link {
     color: initial;
     text-decoration: none;
-  }
-  
+}
   /* visited link */
-  a:visited {
+a:visited {
     color: initial;
     text-decoration: none;
 
-  }
-  
+}
+
   /* mouse over link */
-  a:hover {
+a:hover {
     color: initial;
     text-decoration: none;
     
-  }
-  
+}
+
   /* selected link */
-  a:active {
+a:active {
     color: inital;
     text-decoration: none;
 
-  }
-  
+}
